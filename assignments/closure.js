@@ -1,14 +1,19 @@
-// ==== Challenge 1: Write your own closure ====
+// ===== Challenge 1: Write your own closure ====
 // Write a closure of your own creation.
 // Keep it simple! Remember a closure is just a function
 // that manipulates variables defined in the outer scope.
 // The outer scope can be a parent function, or the top level of the script.
 
+var me = "Adam Payne"
+function sayHello(){
+  console.log("Hello, " + me + "!")
+}
+sayHello();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
 
-// ==== Challenge 2: Implement a "counter maker" function ====
+// ==== Challenge 2: Implement a "counter maker" function ======
 const counterMaker = () => {
   // IMPLEMENTATION OF counterMaker:
   // 1- Declare a `count` variable with a value of 0. We will be mutating it, so declare it using `let`!
