@@ -120,7 +120,7 @@ function info(runners){
 runners.forEach(info);
 
 // Problem 3
-//Check to see who donated 200 or more
+//Check to see who donated 200 or moree
 let hiRoller = runners.filter((arrayItem) =>{
   if(arrayItem.donation >= 200){
       return true;
